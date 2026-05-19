@@ -1,0 +1,22 @@
+const PRODUCTS = [
+    {id:1, name:"Jack Daniel's Whiskey", price:35, category:"Whiskey", image:"pictures/jack.jpg", description:"Classic Tennessee whiskey made from corn, rye, and barley, aged in charred oak barrels, with notes of caramel and vanilla."},
+    {id:2, name:"Smirnoff Vodka", price:22, category:"Vodka", image:"pictures/Smirnoff Vodka.jpg", description:"Premium triple-distilled vodka made from grain, with a clean, crisp taste perfect for cocktails or sipping chilled."},
+    {id:3, name:"Red Wine Cabernet", price:18, category:"Wine", image:"pictures/Red Wine Cabernet.jpg", description:"Rich Cabernet Sauvignon made from hand-picked Cabernet grapes, with flavors of blackcurrant, oak, and a smooth finish."},
+    {id:4, name:"Heineken Beer", price:5, category:"Beer", image:"pictures/Heineken Beer.jpg", description:"Premium lager made from malted barley, hops, water, and yeast, with a smooth, balanced taste."},
+    {id:5, name:"Chivas Regal 12", price:45, category:"Whiskey", image:"pictures/chivas.jpg", description:"Smooth Scotch whiskey made from malt and grain whiskies, blended for notes of honey, vanilla, and spices."},
+    {id:6, name:"Absolut Vodka", price:25, category:"Vodka", image:"pictures/absolut.jpg", description:"Classic Swedish vodka made from winter wheat and pure water, known for its clean, smooth flavor."},
+    {id:7, name:"Merlot Red Wine", price:20, category:"Wine", image:"pictures/merlot.jpg", description:"Full-bodied Merlot wine made from Merlot grapes, with flavors of plum, cherry, and chocolate."},
+    {id:8, name:"Corona Extra Beer", price:6, category:"Beer", image:"pictures/corona.jpg", description:"Refreshing Mexican lager made from barley malt, corn, hops, and water, best served cold with lime."},
+    {id:9, name:"Bacardi Rum", price:28, category:"Rum", image:"pictures/bacarda.jpg", description:"Smooth white rum made from sugarcane molasses, with subtle notes of vanilla and almond."},
+    {id:10, name:"Tanqueray Gin", price:32, category:"Gin", image:"pictures/tanqueray.jpg", description:"Premium London dry gin made with juniper, coriander, angelica root, and other botanicals for a crisp, aromatic flavor."},
+    {id:11, name:"Patron Silver Tequila", price:55, category:"Tequila", image:"pictures/patron.jpg", description:"High-quality silver tequila made from 100% blue agave, with a smooth, crisp flavor."},
+    {id:12, name:"Baileys Irish Cream", price:27, category:"Liqueur", image:"pictures/baileys.jpg", description:"Creamy Irish liqueur made with Irish whiskey, fresh cream, and cocoa, perfect for coffee or desserts."},
+    {id:13, name:"Jameson Whiskey", price:40, category:"Whiskey", image:"pictures/jameson.jpg", description:"Smooth Irish whiskey made from malted and unmalted barley, triple-distilled for vanilla and toasted wood notes."},
+    {id:14, name:"Grey Goose Vodka", price:50, category:"Vodka", image:"pictures/grey.jpg", description:"Premium French vodka made from soft winter wheat and spring water, with a clean, silky taste."},
+    {id:15, name:"Pinot Noir", price:23, category:"Wine", image:"pictures/pinot.jpg", description:"Elegant Pinot Noir made from Pinot Noir grapes, with red fruit flavors and a smooth, velvety finish."},
+    {id:16, name:"Budweiser Beer", price:5, category:"Beer", image:"pictures/budweiser.jpg", description:"Classic American lager made from barley malt, rice, hops, and water, with a crisp, clean taste."},
+    {id:17, name:"Captain Morgan Rum", price:30, category:"Rum", image:"pictures/captain.jpg", description:"Spiced rum made from Caribbean sugarcane, blended with natural spices like vanilla, cinnamon, and nutmeg."},
+    {id:18, name:"Bombay Sapphire Gin", price:35, category:"Gin", image:"pictures/bombay.jpg", description:"Premium gin made with ten exotic botanicals including juniper, lemon peel, coriander, and almond for a fresh taste."},
+    {id:19, name:"Don Julio Blanco Tequila", price:60, category:"Tequila", image:"pictures/don_julio.jpg", description:"Smooth silver tequila made from 100% blue agave, with crisp agave and citrus flavors."},
+    {id:20, name:"Kahlua Coffee Liqueur", price:28, category:"Liqueur", image:"pictures/kahlua.jpg", description:"Sweet coffee-flavored liqueur made from arabica coffee beans, sugar, and rum, with rich chocolate notes."}
+];

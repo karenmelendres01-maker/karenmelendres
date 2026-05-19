@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Super Toren Liquor Store</title>
+<link rel="stylesheet" href="homepage.css">
+</head>
+<body>
+
+<!-- Navbar -->
+<nav>
+    <h1>🍺 Super Toren Liquor</h1>
+    <ul>
+        <li onclick="showSection('home')">Home</li>
+        <li onclick="showSection('catalog')">Products</li>
+        <li onclick="showSection('cart')">Cart (<span id="cart-count">0</span>)</li>
+        <li onclick="showSection('about')">About</li>
+        <li onclick="showSection('contact')">Contact</li>
+    </ul>
+</nav>
+
+<main>
+
+    <!-- Homepage -->
+   <!-- Why Choose Us Section -->
+<section id="home" class="section active">
+    <h2>Welcome to Super Iyat Liquor Store</h2>
+    <p>
+        Your trusted destination for premium wines, beers, spirits, and top-quality liquor. 
+        We offer only authentic products sourced from reputable suppliers.
+    </p>
+    <p>
+        Whether you're celebrating, hosting, or exploring new flavors, we ensure a smooth 
+        shopping experience with excellent service and great prices.
+    </p>
+    <p>
+        Enjoy reliable quality, fast service, and a wide selection crafted for every taste.
+    </p>
+    <button onclick="showSection('catalog')">Shop Now</button>
+</section>
+
+<!-- Popular Categories Section -->
+<section class="section active" style="padding-top: 10px;">
+    <h2>Popular Categories</h2>
+    <p>Find your favorite drink from our most loved categories:</p>
+    <ul style="list-style:none; padding:0; margin:0;">
+        <li>🥃 Whiskey – From classic blends to rare aged bottles</li>
+        <li>🍷 Wine – Red, white, rosé, and sparkling selections</li>
+        <li>🍺 Beer – Local and international lagers, ales, and craft brews</li>
+        <li>🍸 Vodka, Gin & Rum – Smooth, bold, and premium brands</li>
+        <li>🔥 Tequila & Liqueurs – Perfect for parties and celebrations</li>
+    </ul>
+    <p style="margin-top:15px;">
+        No matter what you’re craving, we have something perfect waiting for you.
+    </p>
+</section>
+
+
+    <!-- Product Catalog -->
+    <section id="catalog" class="section">
+        <h2>Our Products</h2>
+        <div id="product-list" class="grid"></div>
+    </section>
+
+    <!-- Cart -->
+    <section id="cart" class="section">
+        <h2>Your Cart</h2>
+        <div id="cart-items"></div>
+        <h3>Total: $<span id="cart-total">0</span></h3>
+
+
+    <h2>Checked Out</h2>
+    <div id="checked-out-items"></div>
+</section>
+
+   <section id="about" class="section">
+    <h2>About Us</h2>
+
+    <div class="info-box">
+        <h3>Who We Are</h3>
+        <p>
+            Welcome to <strong>Super Toren Liquor Store</strong> — your trusted shop for premium wines,
+            spirits, beers, whiskey, vodka, and rare liquor selections. Our mission is to deliver authentic,
+            high-quality products with excellent service and affordable pricing.
+        </p>
+    </div>
+
+    <div class="info-box">
+        <h3>Why Customers Love Us</h3>
+        <p>✔ Only authentic, high-quality liquor products</p>
+        <p>✔ Affordable prices & great deals</p>
+        <p>✔ Wide selection: whiskey, vodka, gin, rum, wine, tequila, beer & more</p>
+        <p>✔ Trusted by celebration planners, bar owners, and regular customers</p>
+        <p>✔ Clean, fast, and hassle-free shopping experience</p>
+    </div>
+
+    <div class="info-box">
+        <h3>Our Commitment</h3>
+        <p>
+            We provide responsible and customer-focused service for adults aged 18+. Our team is dedicated
+            to ensuring you always get the right product for every occasion — from birthdays and events to
+            home relaxation and gifting.
+        </p>
+    </div>
+</section>
+
+
+
+    <!-- Contact -->
+<section id="contact" class="section">
+    <h2>Contact Us</h2>
+    <p>We’re here to help you with orders, inquiries, and product recommendations.</p>
+
+    <div class="contact-grid">
+        <!-- Email -->
+        <div class="contact-card">
+            <h4>📧 Email Support</h4>
+            <p>support@superiyat.com</p>
+            <p>Available 24/7 for orders & questions.</p>
+        </div>
+
+        <!-- Phone -->
+        <div class="contact-card">
+            <h4>📞 Phone Hotline</h4>
+            <p>+123 456 7890</p>
+            <p>Call us anytime between 9AM – 9PM.</p>
+        </div>
+
+        <!-- Store Location -->
+        <div class="contact-card">
+            <h4>📍 Store Location</h4>
+            <p>Super Toren Liquor Store</p>
+            <p>Main Street, City Center</p>
+        </div>
+
+        <!-- Business Hours -->
+        <div class="contact-card">
+            <h4>⏰ Business Hours</h4>
+            <p>Monday – Sunday</p>
+            <p>8:00 AM – 10:00 PM</p>
+        </div>
+    </div>
+
+    <!-- Optional Contact Form -->
+    <div class="contact-form" style="margin-top:30px; max-width:600px; margin-left:auto; margin-right:auto;">
+        <h3>Send us a message</h3>
+        <form onsubmit="alert('Message sent!'); return false;">
+            <input type="text" placeholder="Your Name" required style="width:100%; padding:12px; margin:8px 0; border-radius:8px; border:1px solid #ccc;">
+            <input type="email" placeholder="Your Email" required style="width:100%; padding:12px; margin:8px 0; border-radius:8px; border:1px solid #ccc;">
+            <textarea placeholder="Your Message" required style="width:100%; padding:12px; margin:8px 0; border-radius:8px; border:1px solid #ccc; height:120px;"></textarea>
+            <button type="submit" style="width:100%;">Send Message</button>
+        </form>
+    </div>
+
+    <!-- Optional Social Media -->
+    <div class="social-media" style="margin-top:30px;">
+        <h3>Follow Us</h3>
+        <p>
+            <a href="#" style="margin:0 10px; color:#333; text-decoration:none;">Facebook</a> |
+            <a href="#" style="margin:0 10px; color:#333; text-decoration:none;">Instagram</a> |
+            <a href="#" style="margin:0 10px; color:#333; text-decoration:none;">Twitter</a>
+        </p>
+    </div>
+</section>
+
+
+</main>
+
+<!-- Product Detail Modal -->
+<div id="product-modal" class="modal">
+    <div class="modal-box">
+        <span onclick="closeModal()" style="cursor:pointer;float:right;">&times;</span>
+        <div id="product-detail"></div>
+    </div>
+</div>
+
+<script src="store.js"></script>
+<script src="app.js"></script>
+<script>
+displayProducts(PRODUCTS);
+</script>
+</body>
+</html>
